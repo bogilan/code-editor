@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.editor {
+    display: flex;
+}
+
+.code-html,
+.code-css,
+.code-js {
+	flex: 1;
+}
+
+#code-input-html,
+#code-input-css,
+#code-input-js {
+	width: 100%;
+	height: 300px;
+}
+
+#preview iframe {
+	width: 100%;
+	height: 300px;
+	border: none;
+}
